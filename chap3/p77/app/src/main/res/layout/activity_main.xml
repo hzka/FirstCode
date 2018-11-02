@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Textview Retry!"
+        android:textSize="24sp"
+        android:textColor="#00ff00"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/button_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Retry!"
+        android:textAllCaps="false"
+        />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="type something here!"
+        android:maxLines="2"
+        />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/second"
+        />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        />
+</LinearLayout>

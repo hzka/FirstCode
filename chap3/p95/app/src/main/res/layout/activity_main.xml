@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/button_03"
+        android:text="Button 1"
+        android:layout_gravity="left|top"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"/>
+
+    <Button
+        android:id="@+id/button_01"
+        android:text="Button 2"
+        android:layout_gravity="right|top"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"/>
+
+    <Button
+        android:id="@+id/button_02"
+        android:text="Button 3"
+        android:layout_gravity="left|bottom"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"/>
+
+
+    <Button
+        android:id="@+id/button_04"
+        android:text="Button 4"
+        android:layout_gravity="right|bottom"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/button_05"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/button_03"-->
+        <!--android:layout_toRightOf="@id/button_03"-->
+        <!--android:text="Button 5" />-->
+    <!--android:layout_gravity="bottom"-->
+</android.support.percent.PercentFrameLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>--><!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--&gt;--><!--<TextView--><!--android:id="@+id/text_view"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_gravity="left"--><!--android:text="This is a TextView"--><!--/>-->
+
+    <!--<ImageView--><!--android:id="@+id/iv"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_gravity="right"--><!--android:src="@drawable/second" />--><!--&lt;!&ndash;android:layout_gravity="bottom"&ndash;&gt;--><!--</FrameLayout>-->
+
+    <!--<?xml version="1.0" encoding="utf-8"?>--><!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--&gt;--><!--<Button--><!--android:id="@+id/button_03"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_centerInParent="true"--><!--android:text="Button 3"--><!--/>-->
+
+    <!--<Button--><!--android:id="@+id/button_01"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_above="@id/button_03"--><!--android:layout_toLeftOf="@id/button_03"--><!--android:text="Button 1"--><!--/>-->
+
+    <!--<Button--><!--android:id="@+id/button_02"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_above="@id/button_03"--><!--android:layout_toRightOf="@id/button_03"--><!--android:text="Button 2"--><!--/>-->
+
+
+    <!--<Button--><!--android:id="@+id/button_04"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_below="@id/button_03"--><!--android:layout_toLeftOf="@id/button_03"--><!--android:text="Button 4"--><!--/>-->
+
+    <!--<Button--><!--android:id="@+id/button_05"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_below="@id/button_03"--><!--android:layout_toRightOf="@id/button_03"--><!--android:text="Button 5"--><!--/>--><!--&lt;!&ndash;android:layout_gravity="bottom"&ndash;&gt;--><!--</RelativeLayout>--><!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:orientation="vertical"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--&gt;-->
+
+    <!--<Button--><!--android:id="@+id/button_01"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="Button 1"--><!--/>-->
+
+    <!--<Button--><!--android:id="@+id/button_02"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="Button 2"--><!--/>-->
+
+    <!--<Button--><!--android:id="@+id/button_03"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="Button 3"--><!--/>-->
+
+    <!--<LinearLayout android:orientation="horizontal"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content">--><!--<EditText android:id = "@+id/edit_text"--><!--android:layout_width="0dp"--><!--android:layout_height="wrap_content"--><!--android:layout_weight="3"--><!--android:hint="type something here!"/>--><!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;--><!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;--><!--<Button--><!--android:id="@+id/button_04"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="Button 3"--><!--/>--><!--</LinearLayout>--><!--&lt;!&ndash;android:layout_gravity="bottom"&ndash;&gt;--><!--</LinearLayout>-->
